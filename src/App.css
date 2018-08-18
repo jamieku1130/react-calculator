@@ -1,0 +1,103 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+* {
+  box-sizing: border-box;
+  outline: none;
+}
+
+body {
+  margin: 0;
+  padding:0;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.calc {
+ width:233px;
+ background-color: #333;
+ color: white;
+ margin: 20px auto;
+}
+
+.screen {
+  text-align: right;
+  font-size:40px;
+  height: 80px;
+  padding-right: 10px;
+  padding-top:30px;
+
+}
+
+.calc-button {
+  height: 49px;
+  width: 24.8%;
+  font-size:inherit;
+  background-color: #E0E0E0;
+  cursor: pointer;
+}
+.calc-button:hover {
+  background-color: rgb(211, 211, 211);
+}
+
+.calc-button:active {
+  background-color: rgb(182, 182, 182);
+}
+
+
+.calc-button:last-child {
+  color:white;
+  background-color: #F79231;
+}
+
+.calc-button:last-child:hover {
+  background-color: rgb(250, 153, 62);
+}
+
+.calc-button:last-child:active {
+  background-color: rgb(252, 146, 47);
+}
+
+.calc-buttons{
+  font-size: 25px;
+}
+
+.double {
+  width: 49.86%;
+}
+
+.triple {
+  width: 74.84%
+}
+
+.calc-row {
+  display: flex;
+  align-content: stretch;
+  justify-content: space-between;
+  
+}
